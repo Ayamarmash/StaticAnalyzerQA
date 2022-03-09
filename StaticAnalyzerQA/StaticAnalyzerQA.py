@@ -20,4 +20,3 @@ for line in Lines:
         for x in range (10):
             if str(x) in line:
                 print("Line : ",line , "Contains Magic Number")
-#aya
