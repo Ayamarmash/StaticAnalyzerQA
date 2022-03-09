@@ -15,6 +15,7 @@ for line in Lines:
                     for operator in operators:
                         if operator in line:
                             print("Line : ",line , "Contains Magic Number")
+
 for line in Lines:
     if equal in line:
         for x in range (10):
