@@ -15,10 +15,9 @@ for line in Lines:
                     for operator in operators:
                         if operator in line:
                             print("Line : ",line , "Contains Magic Number")
-            
 for line in Lines:
     if equal in line:
-         for operator in operators:
-                  if operator in line and str(x) in line:
-                                print("Line : ",line , "Contains equal")
-
+        for x in range (10):
+            if str(x) in line:
+                print("Line : ",line , "Contains Magic Number")
+#aya
