@@ -21,7 +21,18 @@ for line in Lines:
         for x in range (10):
             if str(x) in line:
                 print("Line : ",line , "Contains Magic Number")
-                
+ 
+for word in line.split():
+        for substring in substrings:
+            if word == substring :
+                i=i+1
+    if i > 3:
+        print(line ,"has more than 3 parametars")
+
+for line in Lines:
+    for word in line.split():
+        if word == "return" or word == "break" or word =="continue":
+            print(line, "unreachable code")               
                
 #####################
 ## attributes test
