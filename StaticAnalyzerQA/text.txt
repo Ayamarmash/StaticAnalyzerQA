@@ -1,8 +1,7 @@
 class x
 {
 };
-double Calculate( int number, string divisor, char divisor2, char divisor3)
-{
+double Calculate( int number, string divisor, char divisor2, char divisor3){
 //This is a bug because divisor can be zero
 cout << "" ;
 int x = 5 ;
@@ -18,7 +17,12 @@ bool Check( int status, string name, char startChar)
 }
 int main()
 {
-Calculate(1, "ddd", 'R', 'S');
+int number = 1;
+string divisor = "ddd";
+char divisor2 = 'R';
+char divisor3 = 'S'
+
+Calculate(number,divisor ,divisor2, divisor3);
 Check(1, "Data", 'R');
 Check(1.5, 'D', "Data");
 }
